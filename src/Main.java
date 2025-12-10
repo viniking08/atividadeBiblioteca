@@ -17,7 +17,7 @@ public class Main {
         Leitor leitor = new Leitor("João", 101);
         Funcionario funcionario = new Funcionario("Maria", 999);
 
-        // sobrescrita
+        // sobrescrita  / requisito tecnico 5 e 6 na prática
         System.out.println("-- sobrescrita --");
         leitor.tipoUsuario();
         funcionario.tipoUsuario();
@@ -40,7 +40,7 @@ public class Main {
         System.out.println("\n-- devolucao --");
         biblioteca.registrarDevolucao(l1, leitor);
 
-        // sobrecarga
+        // sobrecarga / requisito tecnico 6 na prática
         System.out.println("\n-- sobrecarga --");
         leitor.setLivrosSolicitados(3);
         biblioteca.info(leitor);
