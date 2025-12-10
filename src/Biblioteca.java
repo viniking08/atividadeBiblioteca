@@ -16,7 +16,7 @@ public class Biblioteca {
         livros.remove(livro);
         System.out.println("Livro removido: " + livro.getTitulo());
     }
-    public void info() {             //deixar bem claro que eu não sabia fazer isso, tive que pesquisar
+    public void info() {             //deixar bem claro que eu não sabia fazer isso, tive que pesquisar (o Livro livro : livros)
         System.out.println("Livros da biblioteca:");
         for (Livro livro : livros) {
             System.out.println(livro.getTitulo());
